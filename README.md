@@ -1,6 +1,3 @@
-# swampy-docker
-The docker setup for swampy.
-
 # Luvit Docker Image Source
 
 Luvit Docker Image is based on:
@@ -24,3 +21,13 @@ $ cd swampy
 $ docker-compose build
 $ docker-compose up -d
 ```
+
+## SWAMPY 
+
+The Swampy source code is in swampy/swampy.
+
+Being a luvit based system, SWAMPY is entirely built from Web pages (mostly static) and lua.
+
+## License
+  
+It's distributed under [MIT License](LICENSE).
