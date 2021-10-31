@@ -1,6 +1,6 @@
-# Luvit Docker Image Source
+# SWAMPY Luvit Docker Image Source
 
-Luvit Docker Image is based on:
+The Luvit Docker Image is based on:
 
 https://github.com/baleyko/docker-luvit
 
