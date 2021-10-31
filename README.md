@@ -16,8 +16,15 @@ If you use letsencrypt you can easily generate these.
 To start swampy using docker-compose:
 
 ```shell
-$ git clone https://github.com/dlannan/swampy.git
+$ git clone --recurse-submodules https://github.com/dlannan/swampy.git
 $ cd swampy
+```
+
+Before building compose, make sure you have SSL keys added to the swampy/keys folder. 
+See the swampy readme for more information: https://github.com/dlannan/swampy
+
+Once the keys are installed, then run:
+```
 $ docker-compose build
 $ docker-compose up -d
 ```
