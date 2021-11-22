@@ -5,3 +5,5 @@ services:
     ports:
       - "5000:5000"
       - "11000-11100:11000-11100"
+    restart: always
+
