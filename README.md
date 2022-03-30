@@ -35,6 +35,12 @@ The Swampy source code is in swampy/swampy.
 
 Being a luvit based system, SWAMPY is entirely built from Web pages (mostly static) and lua.
 
+## Updating Letsencrypt
+
+To update the letsencrypt keys, make sure you link or copy the keys to the 
+swampy/keys folder and then you must run docker-compose build again to update the 
+docker image. 
+
 ## License
   
 It's distributed under [MIT License](LICENSE).
